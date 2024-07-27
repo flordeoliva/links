@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+
+    /* System tokens */
+    --md-dialog-container-color: var(--md-sys-color-secondary-container);
+    --md-dialog-headline-color: var(--md-sys-color-primary);
+    --md-dialog-headline-font: 'Open Sans';
+    --md-dialog-supporting-text-color: var(--md-sys-color-primary);
+    --md-dialog-supporting-text-font: 'Open Sans';
+
+    @media(prefers-color-scheme: dark) {
+        --md-dialog-container-color: var(--md-sys-color-secondary-container);
+        --md-dialog-headline-color: var(--md-sys-color-primary);
+        --md-dialog-headline-font: 'Open Sans';
+        --md-dialog-supporting-text-color: var(--md-sys-color-primary);
+        --md-dialog-supporting-text-font: 'Open Sans';
+    }
+
+}
+
+md-filled-tonal-button {
+    margin: 3px 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-primary);
+
+    @media(prefers-color-scheme: dark) {
+        background-color: var(--md-sys-color-on-secondary);
+    }
+
+    transition: 500ms;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 80px;
+    color: var(--md-sys-color-primary);
+}
+
+main {
+    height: fit-content;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    color: var(--md-sys-color-primary);
+}
+
+.card {
+    margin: 0 10px;
+    padding: 10px 35px 10px 35px;
+
+    border-radius: 25px;
+
+
+    background-color: #ffffff;
+
+    @media(prefers-color-scheme: dark) {
+        background-color: var(--md-sys-color-surface);
+        color: var(--md-sys-color-on-secondary-container);
+    }
+}
+
+.responsive {
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
