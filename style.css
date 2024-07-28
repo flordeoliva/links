@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: var(--md-sys-color-secondary-container);
+    background-color: var(--md-sys-color-surface);
     color: var(--md-sys-color-primary);
 
     @media(prefers-color-scheme: dark) {

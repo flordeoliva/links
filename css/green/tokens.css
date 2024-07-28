@@ -1,5 +1,5 @@
 :root {
-  --md-source: #006b59;
+  --md-source: #1c1c14;
   /* primary */
   --md-ref-palette-primary0: #000000;
   --md-ref-palette-primary10: #002019;
@@ -7,7 +7,7 @@
   --md-ref-palette-primary25: #004438;
   --md-ref-palette-primary30: #005143;
   --md-ref-palette-primary35: #005e4e;
-  --md-ref-palette-primary40: #006b59;
+  --md-ref-palette-primary40: #1c1c14;
   --md-ref-palette-primary50: #008771;
   --md-ref-palette-primary60: #00a389;
   --md-ref-palette-primary70: #39bfa3;
@@ -103,7 +103,7 @@
   --md-ref-palette-error99: #fffbff;
   --md-ref-palette-error100: #ffffff;
   /* light */
-  --md-sys-color-primary-light: #006b59;
+  --md-sys-color-primary-light: #1c1c14;
   --md-sys-color-on-primary-light: #ffffff;
   --md-sys-color-primary-container-light: #7af8d9;
   --md-sys-color-on-primary-container-light: #002019;
@@ -119,9 +119,9 @@
   --md-sys-color-error-container-light: #ffdad6;
   --md-sys-color-on-error-light: #ffffff;
   --md-sys-color-on-error-container-light: #410002;
-  --md-sys-color-background-light: #fafdfa;
+  --md-sys-color-background-light: #fcfaec;
   --md-sys-color-on-background-light: #191c1b;
-  --md-sys-color-surface-light: #fafdfa;
+  --md-sys-color-surface-light: #fcfaec;
   --md-sys-color-on-surface-light: #191c1b;
   --md-sys-color-surface-variant-light: #dbe5e0;
   --md-sys-color-on-surface-variant-light: #3f4945;
@@ -134,12 +134,12 @@
   --md-sys-color-outline-variant-light: #bfc9c4;
   --md-sys-color-scrim-light: #000000;
   /* dark */
-  --md-sys-color-primary-dark: #5bdbbe;
+  --md-sys-color-primary-dark: #e5e3d6;
   --md-sys-color-on-primary-dark: #00382d;
   --md-sys-color-primary-container-dark: #005143;
   --md-sys-color-on-primary-container-dark: #7af8d9;
   --md-sys-color-secondary-dark: #b1ccc3;
-  --md-sys-color-on-secondary-dark: #1d352e;
+  --md-sys-color-on-secondary-dark: #13140c;
   --md-sys-color-secondary-container-dark: #334b44;
   --md-sys-color-on-secondary-container-dark: #cde8df;
   --md-sys-color-tertiary-dark: #aacbe3;
