@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor de oliva - Links</title>
+    <meta name="theme-color" content="#f9faef">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+          {
+            "imports": {
+              "@material/web/": "https://esm.run/@material/web/"
+            }
+          }
+        </script>
+    <script type="module">
+        import '@material/web/all.js';
+        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
+
+        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <!-- custom theme from material theme builder -->
+    <link rel="stylesheet" href="css/light.css">
+    <!-- custom theme from material theme builder -->
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="light">
+
+    <main>
+        <div class="card" style="margin-top: 10vh;">
+            <img class="logo-main" src="assets/images/logo.png" alt="Logo">
+            <h1 class="md-typescale-display-small title-main" style="text-align: center;">Flor de oliva</h1>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus est necessitatibus, dolorem
+                provident incidunt iure eum numquam. Provident suscipit, nesciunt cumque at eaque aut sit error pariatur
+                voluptas temporibus!
+            </span>
+            <br>
+            <br>
+            <md-elevated-button type="button" onclick="clickFunction()">
+                <div style="display: flex;">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yx/r/H1l_HHqi4p6.png" alt="Instagram"
+                        height="20px">
+                    &nbsp;
+                    <span style="font-size: 22px;">
+                        Instagram
+                    </span>
+                </div>
+            </md-elevated-button>
+            <br>
+            <md-elevated-button type="button" onclick="clickFunction()">
+                <div style="display: flex;">
+                    <img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg" alt="Whatsapp" height="20px">
+                    &nbsp;
+                    <span style="font-size: 22px;">
+                        Whatsapp
+                    </span>
+                </div>
+            </md-elevated-button>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
