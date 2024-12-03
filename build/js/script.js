@@ -1,5 +1,5 @@
 function linkToInstagram() {
-    window.open("https://www.instagram.com/flordeoliva_boutique", "_blank");
+    window.open("https://www.instagram.com/flordeoliva._", "_blank");
 }
 
 function linkToWhatsapp() {
